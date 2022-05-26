@@ -1,0 +1,96 @@
+body
+{
+	font-size: 25px;
+	margin: 0;
+	text-align: center;
+}
+
+img
+{
+	width: 302px;
+	height: 200px;
+	margin: 10px;
+	transition:width 1.8s, height 1.8s, transform 1.7s;
+}
+
+header
+{
+	padding-top:8px;
+	height: 42px;
+	background-color: green;
+	color: white;
+	margin-bottom: 20px;
+}
+
+footer
+{
+	padding-top:8px;
+	margin-top: 20px;
+	height: 42px;
+	background-color: green;
+	color: white;
+}
+
+#jeden
+{
+	filter:blur(2.5px);
+}
+
+img:hover
+{
+	width: 500px;
+	height: 310.2px;
+	filter:brightness(150%);
+	transform: rotate(360deg);
+	cursor: pointer;
+}
+
+#dwa
+{
+	filter:sepia(90%);
+}
+
+#trzy
+{
+	filter: invert(140%);
+}
+
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#big
+{
+	width: 1300px;
+	height: 810px;
+}
+
+#big:hover
+{
+	filter:none;
+	transform: none;
+	cursor: default;
+}
+
+#mid
+{
+	width: 450px;
+	height: 350px;
+	filter:none;
+	transform: none;
+}
+
+hr
+{
+	height: 3px;
+	color: orange;
+	background-color: orange;
+	width: 75%;
+}
+
+h1,h2
+{
+	text-shadow: -3px 2px 5px rgba(255,31,31,0.52);
+}
