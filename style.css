@@ -65,6 +65,8 @@ table
 {
 	width: 1300px;
 	height: 810px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 #big:hover
